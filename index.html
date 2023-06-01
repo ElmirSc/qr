@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="de">
+  <div class = "background-container">
+  <head>
+    <link rel="stylesheet" href="css/main.css">
+
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Home</title>
+  </head>
+
+  <body>
+    <div class = "body-container">
+    <div class = "header-container">
+      <header class = "header-class">
+        <hgroup>
+          <h1>Elmirs Tuningshop</h1>
+          <p><strong>Dein Auto - dein Stil!</strong></p>
+        </hgroup>
+      </header>
+    </div>
+
+    <nav>
+      <div class = "nav-container">
+        <ul>
+          <li><a href="#felgen">Felgen</a></li>
+          <li><a href="#auspuffe">Auspuffe</a></li>
+          <li><a href="#spoiler">Spoiler</a></li>
+          <li><a href="#contact">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class = "warenkorb-container">
+        <button type="button" >
+          <img src="Warenkorb.png" alt="Beschreibung des Bildes">
+        </button>
+      </div>
+    </nav>
+
+
+
+    <div class = "image-container">
+      <img class="tuningpic" src="tuning.png" alt="Beschreibung des Bildes" width="1000" height="450">
+    </div>
+
+    <main>
+      <div class="tuning-container">
+        <section class="tuning-section" id="felgen">
+          <h2>Felgen</h2>
+          <article>
+            <h3>Neueste Felgen für dein Auto!</h3>
+            <button type="button" >
+              <img  src="felge.png" alt="Beschreibung des Bildes" >
+            </button>
+            <h4>Desto größer, desto besser!</h4>
+          </article>
+        </section>
+
+
+        <section class="tuning-section" id="auspuffe">
+          <h2>Asupuff</h2>
+          <article>
+            <h3>Neueste Auspuffe für dein Auto!</h3>
+            <button type="button">
+              <img src="auspuff.png" alt="Beschreibung des Bildes" >
+            </button>
+            <h4>Nicht laut genug? <br>Dann bist du hier richtig!</h4>
+          </article>
+        </section>
+
+
+        <section class="tuning-section" id="spoiler">
+          <h2>Spoiler</h2>
+          <article>
+            <h3>Neueste Spoiler für dein Auto!</h3>
+
+            <button type="button" >
+              <img src="wing2.png" alt="Beschreibung des Bildes" >
+            </button>
+            <h4>Für das ultimative Tuningerlebnis!</h4>
+          </article>
+        </section>
+      </div>
+    </main>
+
+    <div class="contact-container">
+      <a><strong>  Kontaktformular:</strong> </a>
+      <form action="/senden" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <br>
+        <label for="email">E-Mail:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <br>
+        <label for="nachricht">Nachricht:</label>
+        <textarea id="nachricht" name="nachricht" required></textarea>
+        <br>
+        <br>
+        <button type="submit">Senden</button>
+      </form>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <footer>
+      <div class="footer-container">
+        <section id="contact">
+          <h2>Kontaktdaten</h2>
+          <address>
+            <a>Elmirs Tuningshop<br> </a>
+            <a>Linke Brückenstraße 39 <br></a>
+            <a>4040 Linz <br></a>
+            <a>email: elmosofti199@hotmail.com <br></a>
+            <a>Tel: 06604479892 <br></a>
+          </address>
+
+          <p>&copy; 2023
+            by Elmir Sofitc</p>
+        </section>
+      </div>
+    </footer>
+  </div>
+  </body>
+</div>
+</html>

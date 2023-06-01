@@ -1,0 +1,24 @@
+.image-container{
+  display: flex;
+  justify-content: center; /* Horizontale Ausrichtung in der Mitte */
+  align-items: center; /* Vertikale Ausrichtung in der Mitte */
+  height: 500px; /* Höhe der Container-Box anpassen */
+  background: linear-gradient(-45deg, #800E0E 35%, #CCCDD8 65%);
+
+}
+
+.warenkorb-container button img{
+  width: 50px;
+  height: 50px;
+}
+
+.tuning-section button img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
